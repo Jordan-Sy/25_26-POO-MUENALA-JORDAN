@@ -63,8 +63,8 @@ if __name__ == "__main__":  # Punto de entrada del programa
     hombre_lobo = HombreLobo("Remus Lupin", 60, "Luna llena")
 
     # Polimorfismo
-    fantasma.aparecer()
-    hombre_lobo.aparecer()
+    fantasma.aparecer()  # Llamada al método sobrescrito del fantasma
+    hombre_lobo.aparecer()  # Llamada al método sobrescrito del hombre lobo
 
     # Encapsulación: acceso mediante método
     print("Nivel de miedo del fantasma:", fantasma.obtener_nivel_miedo())
