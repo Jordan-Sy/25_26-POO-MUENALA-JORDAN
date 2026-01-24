@@ -49,5 +49,5 @@ if __name__ == "__main__": # Punto de entrada del programa.
     # Eliminar la cuenta manualmente para activar el destructor
     del cuenta1
 
-    print("\nFin del programa bancario.")
+    print("\n Fin del programa bancario.")
 
