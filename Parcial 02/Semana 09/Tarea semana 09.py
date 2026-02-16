@@ -1,6 +1,6 @@
-# =========================
+#Jordan Muenala - 2026-02-15
 # CLASE PRODUCTO
-# =========================
+
 class Producto:  # Clase para representar un producto en el inventario
 
     def __init__(self, id, nombre, cantidad, precio):  # Constructor para inicializar los atributos del producto
