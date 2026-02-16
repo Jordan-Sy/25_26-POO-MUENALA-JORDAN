@@ -33,9 +33,9 @@ class Producto:  # Clase para representar un producto en el inventario
         return f"ID: {self.id} | Nombre: {self.nombre} | Cantidad: {self.cantidad} | Precio: ${self.precio}"
 
 
-# =========================
+
 # CLASE INVENTARIO
-# =========================
+
 class Inventario:  # Clase para gestionar el inventario de productos
 
     def __init__(self):  # Constructor para inicializar la lista de productos
@@ -89,9 +89,9 @@ class Inventario:  # Clase para gestionar el inventario de productos
                 print(p)
 
 
-# =========================
+
 # MENÚ PRINCIPAL
-# =========================
+
 def menu():
     inventario = Inventario()  # Crear una instancia de Inventario para gestionar los productos
 
